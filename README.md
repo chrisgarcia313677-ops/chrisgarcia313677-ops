@@ -1,6 +1,6 @@
 ### Chris — Systems Engineer & Home Lab Architect
 
-Maintenance Technician @ CBRE | ASML San Diego | Building distributed AI infrastructure in my spare time. Santa Ana raised.
+Maintenance Technician @ CBRE | ASML San Diego | Building distributed AI infrastructure in my spare time.
 
 ## CHRIDCUH — Distributed AI Home Lab
 
@@ -21,7 +21,4 @@ A production-grade, multi-node AI stack running across three machines connected 
 - 🧠 **ChromaDB Vector Memory** — 12,000+ ingested entries, game session logging, semantic recall across the stack
 
 ## Other Interests
-3D printing · Game modding · Anaheim Ducks · Mazda Miata wrenching
-
-## Certs in Progress
-EPA 608 Universal
+3D printing · Game modding · Anaheim Ducks🏒🦆 · Mazda Miata wrenching
