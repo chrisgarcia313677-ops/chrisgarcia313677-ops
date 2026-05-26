@@ -1,4 +1,4 @@
-<h1 align="center">Chris Garcia</h1>
+<h1 align="center">Christopher Simon Garcia</h1>
 <h3 align="center">Systems Engineer · Home Lab Architect · AI Infrastructure Builder</h3>
 
 <p align="center">
