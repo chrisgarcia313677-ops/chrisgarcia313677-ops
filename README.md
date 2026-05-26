@@ -21,8 +21,7 @@
 |---|---|---|---|---|
 | **ROBIN** | Windows 11 | Ryzen 7 7700 | RTX 4060 Ti | Primary AI PC · Local LLM inference · FastMCP host |
 | **OP** | Ubuntu 24.04 | Ryzen 7 5700X | GTX 1080 Ti | Primary Compute · Frigate NVR · ML pipelines |
-| **minecraft** | TrueNAS / Linux | — | — | Central Storage PC · Shared network volumes |
-| **The Rift** | Home Assistant OS | — | — | Automation hub · MQTT broker |
+| **The Rift** | Home Assistant OS | — | — | Automation hub · MQTT broker · Integrated storage |
 
 ---
 
