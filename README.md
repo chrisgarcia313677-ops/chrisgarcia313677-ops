@@ -4,7 +4,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Role-Maintenance%20Technician-0d1117?style=flat-square&logo=wrench&logoColor=white" />
   <img src="https://img.shields.io/badge/Company-CBRE%20%7C%20ASML%20San%20Diego-blue?style=flat-square&logo=building&logoColor=white" />
-  <img src="https://img.shields.io/badge/Location-San%20Diego%2C%20CA-orange?style=flat-square&logo=google-maps&logoColor=white" />
+  <img src="https://img.shields.io/badge/Location-Orange%20County%2C%20CA-orange?style=flat-square&logo=google-maps&logoColor=white" />
 </p>
 
 <p align="center">
