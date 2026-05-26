@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  Maintenance Technician at CBRE supporting ASML San Diego — and on my own time, I build and operate a distributed AI home lab that runs production-grade inference, computer vision pipelines, and automated security systems across a three-node cluster.
+  Maintenance Technician at CBRE supporting ASML San Diego — and on my own time, I build and operate a distributed AI home lab that runs production-grade inference, computer vision pipelines, and automated security systems across a multi-node cluster.
 </p>
 
 ---
@@ -19,8 +19,9 @@
 
 | Node | OS | CPU | GPU | Role |
 |---|---|---|---|---|
-| **ROBIN** | Ubuntu 24.04 | Ryzen 7 5700X | GTX 1080 Ti | Primary AI inference · Frigate NVR · ML pipelines |
-| **OP** | Windows 11 | Ryzen 7 7700 | RTX 4060 Ti | Secondary compute · Gaming rig |
+| **ROBIN** | Windows 11 | Ryzen 7 7700 | RTX 4060 Ti | Primary AI PC · Local LLM inference · FastMCP host |
+| **OP** | Ubuntu 24.04 | Ryzen 7 5700X | GTX 1080 Ti | Primary Compute · Frigate NVR · ML pipelines |
+| **minecraft** | TrueNAS / Linux | — | — | Central Storage PC · Shared network volumes |
 | **The Rift** | Home Assistant OS | — | — | Automation hub · MQTT broker |
 
 ---
@@ -32,6 +33,7 @@
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
 ![ONNX](https://img.shields.io/badge/ONNX-005CED?style=flat-square&logo=onnx&logoColor=white)
 ![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6B35?style=flat-square&logo=databricks&logoColor=white)
 
@@ -59,13 +61,13 @@ Person re-identification using **OSNet ONNX** embeddings integrated with **Friga
 A **TFX-based ML pipeline** for security event classification, combining blended ML scoring with rule-based heuristics. Models are automatically promoted to production inference when validation thresholds are met — no manual intervention required.
 
 ### 🗣️ JARVIS Voice Assistant
-Full local voice pipeline: wake word detection (**openWakeWord**) → speech-to-text (**faster-whisper**) → LLM reasoning (**Ollama**) → text-to-speech (**Piper**). Audio is bridged between nodes over UDP, keeping latency low and all processing on-premise.
+Full local voice pipeline: wake word detection (**openWakeWord**) → speech-to-text (**faster-whisper**) → LLM reasoning (**Ollama**) → text-to-speech (**Piper**). Audio is bridged between nodes over UDP to maintain sub-second latency with all processing kept completely on-premise.
 
 ### 📡 SOAR-Lite MQTT Automation
 Lightweight security orchestration built on MQTT — handles threat fusion, SSH lockdown delegation, and self-DoS protection via a Tailscale CIDR safelist. Designed to operate autonomously with minimal operational overhead.
 
 ### 🧠 ChromaDB Vector Memory
-A persistent semantic memory layer with **12,000+ ingested entries** spanning game session logs, operational notes, and system state. Enables semantic recall across the entire CHRIDCUH stack.
+A persistent semantic memory layer with **12,000+ ingested entries** spanning game session logs, operational notes, and system state. Enables real-time semantic recall across the entire CHRIDCUH stack utilizing a unified FastMCP API.
 
 ---
 
@@ -73,9 +75,9 @@ A persistent semantic memory layer with **12,000+ ingested entries** spanning ga
 
 When I'm not pushing commits, I'm doing one of these:
 
-- **3D Printing** — Functional prints, enclosures, and lab hardware mounts
-- **Game Modding** — Digging into game internals and building custom tools
-- **Anaheim Ducks 🏒🦆** — Season follower, always
+- **3D Printing** — Functional prints, structural enclosures, and custom lab hardware mounts using a dual Ender 3 V2 setup
+- **Game Modding** — Digging into game internals, hardware performance optimization, and building custom tools
+- **Anaheim Ducks 🏒🦆** — Tracking the team and catching games live at the Honda Center
 - **Mazda Miata Wrenching** — Keeping it running, keeping it fun
 
 ---
